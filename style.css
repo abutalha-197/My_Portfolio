@@ -411,7 +411,17 @@ header .navbar ul li a:hover{
  #fn{
      color: yellow;
  }
-
+/* Animation CSS USE */
+#Aname{
+  display: inline-block;
+  animation: zoomIn; 
+  animation-duration: 4s; 
+}
+#Abox{
+    /* display: inline-block; */
+    animation: zoomIn; 
+    animation-duration: 4s; 
+}
 
 
 /* media queries  */
