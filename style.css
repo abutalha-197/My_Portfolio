@@ -111,10 +111,11 @@ header .user .name{
 header .user .post{
     font-size: 2rem;
     color:#eee;
+    margin-bottom: 0;
 }
 
 header .navbar{
-    width:100%;
+    width:50%;
 }
 
 header .navbar ul{
@@ -125,12 +126,13 @@ header .navbar ul{
 
 header .navbar ul li a{
     display: block;
-    padding:1rem;
-    margin:1.5rem 0;
+    padding:0.5rem;
+    margin:1rem 1rem;
     background:#333;
     color:#fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 5rem;
+    text-decoration: none;
 }
 
 header .navbar ul li a:hover{
@@ -400,9 +402,15 @@ header .navbar ul li a:hover{
     animation: status 4s ease forwards;
   }
 
+ #footer{
+     color: #fff;
+     padding: 2rem;
+     margin-left: 300px;
+ }
 
-
-
+ #fn{
+     color: yellow;
+ }
 
 
 
@@ -473,5 +481,14 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
-
+    #blogs{
+        font-size: 10px;
+        margin: 100px 50px 20px 100px;
+    }
+    header .navbar{
+        width:40%;
+    }
+    #footer{
+        margin-left: 50px;
+    }
  }
