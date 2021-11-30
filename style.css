@@ -99,6 +99,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
+    margin-top: 12rem;
     border:.7rem solid var(--yellow);
 }
 
@@ -224,6 +225,11 @@ header .navbar ul li a:hover{
 .about .row .counter .box h3{
     font-size: 2rem;
     color:#fff;
+}
+#blogs{
+    color: #fff;
+    font-size: 50px;
+    margin: 200px 200px 300px 200px;
 }
 
 .education .box-container{
