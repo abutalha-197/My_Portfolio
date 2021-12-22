@@ -233,6 +233,18 @@ header .navbar ul li a:hover{
     font-size: 50px;
     margin: 200px 200px 300px 200px;
 }
+.blog-title{
+    color: gainsboro;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.blog-desc{
+    color: #fff;
+    margin: 10px 50px;
+    font-size: 16px;
+}
 
 .education .box-container{
     display: flex;

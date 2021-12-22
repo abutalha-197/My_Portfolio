@@ -66,7 +66,13 @@
             interfaces and debugging.
 
         </p>
-        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+        <div>
+            <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+            <a target="blank"
+                href="https://drive.google.com/file/d/1x2-oQGW4Fh-sq0raY_QQCTncjkRCFQxT/view?usp=sharing"><button
+                    class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+        </div>
+
 
     </section>
 
@@ -189,7 +195,52 @@
     <section class="blog" id="blog">
         <h1 class="heading"> My <span>Blog</span> </h1>
         <div class="box-container">
-            <h3 id='blogs'>Cooming Soon......! </h3>
+            <div>
+                <h2 class="blog-title">What is JSX ?</h2>
+                <P class="blog-desc">JSX is not original HTML.It’s Javascript code looks like html and it just provides
+                    syntactic sugar for
+                    the react function.
+
+                    React library provides createElement method.This method accepts minimum three parameters.The first
+                    parameter is a string which specifies html tag to be rendered like div.The second parameter we can
+                    pass
+                    any optional properties.The third parameter is the children for the html tag.Reactjs convert the jsx
+                    in
+                    js object.It's Javascript code looks like html which one behind the scene does execute the
+                    react.createElement method.
+                </P>
+            </div>
+            <br>
+            <div>
+                <h2 class="blog-title">What is a context API?</h2>
+                <P class="blog-desc">In the 16.3 version of react context API is added in react.It permits a developer
+                    to share state across the complete app.It helps to create global variables that can be passed.It is
+                    an easy way when it comes to move props from grandparent to parent to child.
+                    To use context API all we need is React.createContext() then it will return a customer and
+                    supplier.Supplier is a component that as its names proposes gives the state to its children.Customer
+                    is a component that consumes and uses the state.
+                </P>
+            </div>
+            <br>
+            <div>
+                <h2 class="blog-title">What is Virtual dom?</h2>
+                <P class="blog-desc">Virtual DOM (VDOM) is an in-memory representation of real DOM. The presentation of
+                    a UI is stored in memory and synced with the "real" DOM. This is a step that occurs between calling
+                    the render function and displaying the material on the screen. This whole process is called reunion.
+                    <br>
+                    <span style="text-decoration: underline; font-size: 18px;">Virtual Dom:</span>
+                    <br>
+                    Can’t directly update HTML.
+                    <br>
+                    Update JSX if element updates.
+                    <br>
+                    DOM manipulation is very easy.
+                    <br>
+                    No memory wastage.
+                </P>
+
+            </div>
+
         </div>
     </section>
     <!-- Blog Section end -->
